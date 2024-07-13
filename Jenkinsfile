@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: '
-https://github.com/NoonapallyAkila/TutorialNinjaDemo.git'
+                git url: 'https://github.com/NoonapallyAkila/TutorialNinjaDemo.git'
 , branch: 'main'
             }
         }
